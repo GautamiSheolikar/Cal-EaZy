@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cal-EaZy</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+     <header class="box header">
+        <div class="headertitle">Cal-EaZy</div>
+        <div class="navigationbar">
+            <nav class="headercoulumn">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="norly.html" class="nav-link">Norly-Cal</a>
+                <a href="sciency.html" class="nav-link">Scincy-Cal</a>
+                <a href="helhom.html" class="nav-link">HelHom-Cal</a>
+                <button type="button" class="profile-btn" id="profile-btn" aria-label="Profile">
+                    <img id="profile-icon" src="icon/SignIn.svg" alt="Profile Icon" class="profile-icon">
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="box applayoutnorly">
+        <div class="herosectioncal">
+            <section class="historycal">
+                <h2>History</h2>
+                <div class="historycontent">
+                    <div class="historyheader">
+                        <img src="icon/clock.svg" alt="Clock Icon" class="clock-icon">
+                    </div>
+                    <div class="history-contnent">
+                        <p class="pretext">No Cal made yet! Maybe start with 2+2 ;)</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="norlycal">
+                <h2>Norly-Cal</h2>
+                <div class="calcontent">
+
+                    <div class="cal-display">
+                        <span class="cal-display-input" id="cal-display-input"></span>
+                        
+                        <div class="cal-display-previous">
+                            <span class="Previous-step">Previous-step</span>
+                        </div>
+                        <div class="cal-display-current">
+                            <input type="0" readonly class="Current-step" placeholder="0">
+                        </div>
+                    </div>
+
+                    <div class="other-coloum-btn">
+                        <button type="button" class="history-link" id="history-btn" aria-label="Open history">
+                            <img src="icon/Clock.svg" alt="Clock Icon" class="clockicon">
+                        </button>
+                        <button type="button" class="flaggedd-link" id="flag-btn" aria-label="Flag calculation">
+                            <img src="icon/Flag.svg" alt="Flag Icon" class="flagicon">
+                        </button>
+                    </div>
+
+                    <div class="cal-button">
+                        <section class=" cal-button-row">
+                            <div class="cal-button-row-1">
+                                <button type="button" class="clear">C</button>
+                                <button type="button" class="brackets">( )</button>
+                                <button type="button" class="percentage">%</button>
+                                <button type="button" class="devide">÷</button>
+                            </div>
+
+                             <div class="cal-button-row-2">
+                                <button type="button" class="number">7</button>
+                                <button type="button" class="number">8</button>
+                                <button type="button" class="number">9</button>
+                                <button type="button" class="multiply">×</button>
+                            </div>
+
+                             <div class="cal-button-row-3">
+                                <button type="button" class="number">4</button>
+                                <button type="button" class="number">5</button>
+                                <button type="button" class="number">6</button>
+                                <button type="button" class="subtract">-</button>
+                            </div>
+
+                             <div class="cal-button-row-4">
+                                <button type="button" class="number">1</button>
+                                <button type="button" class="number">2</button>
+                                <button type="button" class="number">3</button>
+                                <button type="button" class="add">+</button>
+                            </div>
+
+                             <div class="cal-button-row-5">
+                                <button type="button" class="delete"><img src="icon/delete-f.svg" class="delete-icon"></button>
+                                <button type="button" class="number">0</button>
+                                <button type="button" class="decimal">.</button>
+                                <button type="button" class="equals">=</button>
+                            </div>
+                        </section>
+                    </div>
+
+                    
+                </div>
+
+            </section>
+
+            <section class="flaggedcal">
+                <h2>Flagged</h2>
+                <div class="flaggedcontent">
+                    <div class="flaggeddheader">
+                        <img src="icon/Flag.svg" alt="Flag Icon" class="flag-icon">
+                    </div>
+                    <div class="flagged-content">
+                        <p class="pretext">No Cal made yet! Maybe start with 2+2 ;)</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <hr>
+        <div class="contactinfo">
+            <p class="name">Project by: Gautami Sheolikar</p>
+            <button class="github" onclick="window.location.href='https://github.com/GautamiSheolikar'">
+                <img src="icon/github.svg" alt="GitHub Icon" class="github-icon">
+            </button>
+        </div>
+        <p class="footertext">© 2026 Cal-EaZy. All rights reserved.</p>
+    </footer>
+
+    <script src="parser.js"></script>
+    <script src="norly.js"></script>
+</body>
+</html>
